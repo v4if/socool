@@ -1,0 +1,119 @@
+/*
+* @Author: v4if
+* @Date:   2016-09-29 18:30:46
+* @Last Modified by:   root
+* @Last Modified time: 2016-09-30 13:05:12
+*/
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font: 14px/1.5 'Helvetica Neue', 'STHeiti', 'Microsoft YaHei', Helvetica,Arial,sans-serif;
+  color: #333333;
+}
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  color: white;
+  z-index: 999;
+  width: 100%;  
+  text-align: center;
+  border-radius: 0;
+  background-color: #0f0f0f;
+}
+header a {
+  color: #cd000f;
+  margin-left: 16.18px;
+}
+header .fa {
+  color: #fff;
+}
+header .pad-left {
+  margin-left: 44.72px;
+}
+a {
+	color: #cd000f;
+	text-decoration: none;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: white;
+  z-index: 999;
+  width: 100%;  
+  text-align: center;
+  border-radius: 0;
+  background-color: #0f0f0f;
+}
+
+#body-container {
+  width: 760px;
+  margin: 120px auto 120px auto;
+  padding: 0 37.08px 0 37.08px;
+}
+.so-cool {
+  float: right;
+  z-index: 999;
+  cursor: pointer;
+  color: #cd000f;
+  padding-top: 6.18px;
+  padding-bottom: 6.18px;
+}
+.skin-search-input {
+  border: 1px solid #ccc;
+  background: #fff;
+  height: 34px;
+  padding: 4px 10px 4px 12px;
+  width: 760px;
+  position: relative;
+  vertical-align: top;
+}
+input {
+  font: 14px/1.5 'Helvetica Neue', 'STHeiti', 'Microsoft YaHei', Helvetica,Arial,sans-serif;
+}
+#wd-input {
+  background: #fff;
+  border: none;
+  color: #333;
+  font-size: 16px;
+  height: 30px;
+  line-height: 30px\9;
+  margin-top: 3px;
+  outline: none;
+  width: 700px;
+}
+.skin-link {
+  margin-top: 24.72px;
+}
+.skin-link input {
+  border: none;
+  cursor: pointer;
+}
+.black-link {
+  color: #cd000f;
+  padding: 4px 10px 4px 12px;
+  text-align: center;
+  border-radius: 0;
+  background-color: #0f0f0f;
+}
+.white-link {
+  color: #fff;
+  padding: 4px 10px 4px 12px;
+  text-align: center;
+  border-radius: 0;
+  background-color: #0b445b;
+}
+.fast-link {
+  margin-top: 100px;
+  margin-bottom: 6px;
+}
+.skin-fast {
+  width: 760px;
+  border: 1px solid #ccc;
+  padding: 8px 10px 8px 12px;
+}
+.fast-index {
+  margin: 10px 0 12px 0;
+}

@@ -1,0 +1,137 @@
+<html>
+	<meta charset="UTF-8">
+	<title>SoCool</title>
+	<meta name="keywords" content="v4if,socool">
+	<link href="/favicon.ico" rel="icon" type="image/x-icon">
+
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<link rel="stylesheet" type="text/css" href="css/fontdiao.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<body>
+	<header>
+		<p>
+			<span><i class="fa icon-pengyouquan" aria-hidden="true"></i> v4if 假如有如果</span>
+
+			<span class="pad-left"><a href="http://v4if.me/" target="_blank"><font>文章|Archives</font></a></span>
+			<span><a href="http://v4if.me/about/" target="_blank">留言板|Messages</a></span>
+			<span><a href="http://v4if.me/log/" target="_blank">建站日志|log</a></span>
+
+			<span class="pad-left"><a target="_blank" href="https://github.com/v4if"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></span>
+			<span><a target="_blank" href="https://www.zhihu.com/people/jichao-wu"><i class="fa icon-zhihu-square" aria-hidden="true"></i> 关注知乎</a></span>
+		</p>
+	</header>
+
+	<div id="body-container">
+
+		<form name="link-form" id="link-form" method="get" action="http://www.baidu.com/s" target="_blank">
+			<div class="skin-search-input">
+				<a id="so-cool" class="so-cool">So Cool</a>
+				<input type="text" name="wd" value="" id="wd-input" placeholder="搜你所想 想你所搜">
+			</div>
+		</form>
+
+		<div class="skin-link">
+			<input class="black-link" type="submit" name="baidu" id="baidu" value="百度">
+			<input class="black-link" type="submit" name="google" id="google" value="谷歌">
+			<input class="black-link" type="submit" name="google-mirror" id="google-mirror" value="谷歌镜像">
+			<input class="black-link" type="submit" name="zhihu" id="zhihu" value="知乎">
+			<input class="black-link" type="submit" name="github" id="github" value="GitHub">
+		</div>
+
+		<div class="fast-link">常用链接</div>
+		<div class="skin-fast">
+			<div class="fast-index">
+				博客：
+				<a class="white-link" href="https://jaq.alibaba.com/community/index.htm?spm=a313e.7768735.1000000.6.tFGmD9" target="_blank">阿里聚安全</a>
+				<a class="white-link" href="http://www.evil0x.com/" target="_blank">邪恶十六进制</a>
+			</div>
+
+			<div class="fast-index">
+				平台：
+				<a class="white-link" href="http://www.ichunqiu.com/" target="_blank">i春秋</a>
+				<a class="white-link" href="http://www.shiyanbar.com/" target="_blank">实验吧</a>
+			</div>
+			
+			<div class="fast-index">
+				网课：
+				<a class="white-link" href="http://www.imooc.com/" target="_blank">慕课网</a>
+				<a class="white-link" href="http://www.jikexueyuan.com/" target="_blank">极客学院</a>
+			</div>
+
+			<div class="fast-index">
+				兵器：
+				<a class="white-link" href="http://tool.oschina.net/regex" target="_blank">正则在线测试</a>	
+			</div>
+
+			<div class="fast-index">
+				技能：
+				<a class="white-link" href="http://blog.knownsec.com/Knownsec_RD_Checklist/v3.0.html" target="_blank">知道创宇研发技能表</a>
+				<a class="white-link" href="https://portal.qiniu.com/signin" target="_blank">七牛云存储</a>
+				<a class="white-link" href="https://dashboard.daocloud.io/" target="_blank">DaoCloud</a>
+			</div>
+			
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var sAddress=document.getElementById("link-form");
+		var sInfor=document.getElementById("wd-input");
+		var soCool=document.getElementById("so-cool");
+		var sBaidu=document.getElementById("baidu");
+		var sGoogle=document.getElementById("google");
+		var sGoogleMirror=document.getElementById("google-mirror");
+		var sZhihu=document.getElementById("zhihu");
+		var sGithub=document.getElementById("github");
+		 
+		// 默认百度
+		soCool.onclick=function () {
+			sAddress.action ="http://www.baidu.com/s";
+			sInfor.name = 'wd';
+			sAddress.submit();
+		}
+
+		//百度
+		sBaidu.onclick=function(){
+			sAddress.action="http://www.baidu.com/s";
+			sInfor.name = 'wd';
+			sAddress.submit();
+		}
+
+		//Google
+		sGoogle.onclick=function(){
+			sAddress.action="https://www.google.com.hk/search";
+			sInfor.name = 'q';
+			sAddress.submit();
+		};
+
+		//Google镜像
+		sGoogleMirror.onclick=function(){
+			sAddress.action="http://www.acgn.ren/search";
+			sInfor.name = 'q';
+			sAddress.submit();
+		};
+
+		//知乎
+		sZhihu.onclick=function(){
+			var infor = sInfor.value;
+			sAddress.action="https://www.zhihu.com/search";
+			sInfor.name = 'q';
+			sAddress.submit();
+		}
+
+		//github
+		sGithub.onclick=function(){
+			sAddress.action="https://github.com/search";
+			sInfor.name="q";
+
+			sAddress.submit();
+		}			
+	</script>
+
+	<footer>
+		<p>
+			<i class="fa icon-pengyouquan" aria-hidden="true"></i> v4if强力驱动
+		</p>
+	</footer>
+</body>
+</html>
