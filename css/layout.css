@@ -1,8 +1,8 @@
 /*
 * @Author: v4if
 * @Date:   2016-09-29 18:30:46
-* @Last Modified by:   root
-* @Last Modified time: 2016-09-30 13:05:12
+* @Last Modified by:   v4if
+* @Last Modified time: 2016-10-07 14:15:53
 */
 
 body {
@@ -80,7 +80,6 @@ input {
   font-size: 16px;
   height: 30px;
   line-height: 30px\9;
-  margin-top: 3px;
   outline: none;
   width: 700px;
 }
