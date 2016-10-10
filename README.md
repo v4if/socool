@@ -1,7 +1,7 @@
 # socool
 集成了常用的搜索引擎和一些经常访问的站点，做成了一个前端web显示
 
-应用采用docker部署，上线地址 [so.daoapp.io](http://so.daoapp.io)
+应用采用docker部署，上线地址 [so.daoapp.io](http://so.daoapp.io)，持续集成
 
 ![socool_docker_demo](http://7xot8c.com1.z0.glb.clouddn.com/2016-09-30-161237.png)
 
