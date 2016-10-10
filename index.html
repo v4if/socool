@@ -34,6 +34,7 @@
 			<input class="black-link" type="submit" name="baidu" id="baidu" value="百度">
 			<input class="black-link" type="submit" name="google" id="google" value="谷歌">
 			<input class="black-link" type="submit" name="google-mirror" id="google-mirror" value="谷歌镜像">
+			<input class="black-link" type="submit" name="yahoo" id="yahoo" value="雅虎Yahoo">
 			<input class="black-link" type="submit" name="zhihu" id="zhihu" value="知乎">
 			<input class="black-link" type="submit" name="github" id="github" value="GitHub">
 		</div>
@@ -90,6 +91,7 @@
 		var sBaidu=document.getElementById("baidu");
 		var sGoogle=document.getElementById("google");
 		var sGoogleMirror=document.getElementById("google-mirror");
+		var sYahoo=document.getElementById("yahoo");
 		var sZhihu=document.getElementById("zhihu");
 		var sGithub=document.getElementById("github");
 		 
@@ -117,6 +119,13 @@
 		//Google镜像
 		sGoogleMirror.onclick=function(){
 			sAddress.action="http://www.acgn.ren/search";
+			sInfor.name = 'q';
+			sAddress.submit();
+		};
+
+		//Yahoo
+		sYahoo.onclick=function(){
+			sAddress.action="https://search.yahoo.com/search?";
 			sInfor.name = 'q';
 			sAddress.submit();
 		};
