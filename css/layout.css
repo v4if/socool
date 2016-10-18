@@ -2,34 +2,35 @@
 * @Author: v4if
 * @Date:   2016-09-29 18:30:46
 * @Last Modified by:   v4if
-* @Last Modified time: 2016-10-07 14:15:53
+* @Last Modified time: 2016-10-18 14:09:50
 */
 
 body {
   padding: 0px;
   margin: 0px;
   font: 14px/1.5 'Helvetica Neue', 'STHeiti', 'Microsoft YaHei', Helvetica,Arial,sans-serif;
-  color: #333333;
+  color: #333;
 }
-header {
+/* 标题栏 */
+#titlebar {
   position: fixed;
   left: 0;
   top: 0;
-  color: white;
+  color: #fff;
   z-index: 999;
   width: 100%;  
   text-align: center;
   border-radius: 0;
   background-color: #0f0f0f;
 }
-header a {
+#titlebar a {
   color: #cd000f;
   margin-left: 16.18px;
 }
-header .fa {
+#titlebar .iconfont {
   color: #fff;
 }
-header .pad-left {
+#titlebar .pad-left {
   margin-left: 44.72px;
 }
 a {
