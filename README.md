@@ -3,6 +3,6 @@
 
 应用采用docker部署，上线地址 [so.daoapp.io](http://so.daoapp.io)，持续集成
 
-![socool_docker_demo](http://7xot8c.com1.z0.glb.clouddn.com/2016-09-30-161237.png)
+![socool_docker_demo](https://github.com/v4if/socool/raw/master/2016-09-30-161237.png)
 
-具体实现细节参考博客文章，详细地址 [web前端应用docker化小例子](http://v4if.me/2016/SoCool_Docker_Demo/)
+具体实现细节参考博客文章，详细地址 [web前端应用docker化小例子](https://v4if.github.io/2016/SoCool_Docker_Demo/)
