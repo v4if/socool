@@ -1,8 +1,7 @@
-# socool
-集成了常用的搜索引擎和一些经常访问的站点，做成了一个前端web显示
+# Socool ![Language c](https://img.shields.io/badge/language-html-blue.svg?style=flat-square) ![Language c](https://img.shields.io/badge/language-css-blue.svg?style=flat-square) ![Language c](https://img.shields.io/badge/language-js-blue.svg?style=flat-square)
 
-应用采用docker部署，上线地址 [so.daoapp.io](http://so.daoapp.io)，持续集成
+常用的搜索引擎和一些经常访问的站点，做成了一个前端web站点导航
 
 ![socool_docker_demo](https://github.com/v4if/socool/raw/master/2016-09-30-161237.png)
 
-具体实现细节参考博客文章，详细地址 [web前端应用docker化小例子](https://v4if.github.io/2016/SoCool_Docker_Demo/)
+
